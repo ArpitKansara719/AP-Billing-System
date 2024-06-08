@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <body class="bg-light p-4">
+        <div class="container bg-white shadow rounded p-4">
+            <h1 class="text-center bg-info text-white py-2 mb-4 rounded">Billing System</h1>
+    
+            <!-- Customer Information Section -->
+            <div class="row mb-4">
+                <div class="col-md-4 mb-3">
+                    <label for="customerName" class="form-label">Customer Name:</label>
+                    <input type="text" id="customerName" class="form-control">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="contactNo" class="form-label">Contact No.:</label>
+                    <input type="text" id="contactNo" class="form-control">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="billNo" class="form-label">Bill No.:</label>
+                    <input type="text" id="billNo" value="7553" class="form-control" readonly>
+                </div>
+            </div>
+    
+            <!-- Items Section -->
+            <div class="row mb-4">
+                <!-- Snacks Section -->
+                <div class="col-md-4 mb-3">
+                    <div class="card border-primary">
+                        <div class="card-header bg-primary text-white">Snacks</div>
+                        <div class="card-body">
+                            <div class="mb-2">
+                                <label for="snack1" class="form-label">Nutella Choco Spread:</label>
+                                <input type="number" id="snack1" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="snack2" class="form-label">Noodles(1 Pack):</label>
+                                <input type="number" id="snack2" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="snack3" class="form-label">Lays(10Rs):</label>
+                                <input type="number" id="snack3" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="snack4" class="form-label">Oreo(20Rs):</label>
+                                <input type="number" id="snack4" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="snack5" class="form-label">Chocolate Muffin:</label>
+                                <input type="number" id="snack5" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="snack6" class="form-label">Dairy Milk Silk(60Rs):</label>
+                                <input type="number" id="snack6" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="snack7" class="form-label">Namkeens(1 Str):</label>
+                                <input type="number" id="snack7" value="0" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grocery Section -->
+                <div class="col-md-4 mb-3">
+                    <div class="card border-success">
+                        <div class="card-header bg-success text-white">Grocery</div>
+                        <div class="card-body">
+                            <div class="mb-2">
+                                <label for="grocery1" class="form-label">Aashirvaad Atta(1kg):</label>
+                                <input type="number" id="grocery1" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="grocery2" class="form-label">Pasta(1kg):</label>
+                                <input type="number" id="grocery2" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="grocery3" class="form-label">Basmati Rice(1kg):</label>
+                                <input type="number" id="grocery3" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="grocery4" class="form-label">Sunflower Oil(1ltr):</label>
+                                <input type="number" id="grocery4" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="grocery5" class="form-label">Refined Sugar(1kg):</label>
+                                <input type="number" id="grocery5" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="grocery6" class="form-label">Daal(1kg):</label>
+                                <input type="number" id="grocery6" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="grocery7" class="form-label">Tea Powder(1kg):</label>
+                                <input type="number" id="grocery7" value="0" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Beauty & Hygiene Section -->
+                <div class="col-md-4 mb-3">
+                    <div class="card border-danger">
+                        <div class="card-header bg-danger text-white">Beauty & Hygiene</div>
+                        <div class="card-body">
+                            <div class="mb-2">
+                                <label for="beauty1" class="form-label">Bathing Soap:</label>
+                                <input type="number" id="beauty1" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="beauty2" class="form-label">Shampoo(1ltr):</label>
+                                <input type="number" id="beauty2" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="beauty3" class="form-label">Body Lotion(1ltr):</label>
+                                <input type="number" id="beauty3" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="beauty4" class="form-label">Face Cream:</label>
+                                <input type="number" id="beauty4" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="beauty5" class="form-label">Shaving Foam:</label>
+                                <input type="number" id="beauty5" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="beauty6" class="form-label">Face Mask(spice):</label>
+                                <input type="number" id="beauty6" value="0" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="beauty7" class="form-label">Hand Sanitizer(50ml):</label>
+                                <input type="number" id="beauty7" value="0" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Billing Summary Section -->
+            <div class="bg-light p-4 rounded mb-4">
+                <h2 class="h4 mb-3">Billing Summary</h2>
+                <div class="mb-2">
+                    <label for="totalSnacksPrice" class="form-label">Total Snacks Price:</label>
+                    <input type="text" id="totalSnacksPrice" class="form-control" readonly>
+                </div>
+                <div class="mb-2">
+                    <label for="snacksTax" class="form-label">Snacks Tax:</label>
+                    <input type="text" id="snacksTax" class="form-control" readonly>
+                </div>
+                <div class="mb-2">
+                    <label for="totalGroceryPrice" class="form-label">Total Grocery Price:</label>
+                    <input type="text" id="totalGroceryPrice" class="form-control" readonly>
+                </div>
+                <div class="mb-2">
+                    <label for="groceryTax" class="form-label">Grocery Tax:</label>
+                    <input type="text" id="groceryTax" class="form-control" readonly>
+                </div>
+                <div class="mb-2">
+                    <label for="totalBeautyPrice" class="form-label">Total Beauty & Hygiene Price:</label>
+                    <input type="text" id="totalBeautyPrice" class="form-control" readonly>
+                </div>
+                <div class="mb-2">
+                    <label for="beautyTax" class="form-label">Beauty & Hygiene Tax:</label>
+                    <input type="text" id="beautyTax" class="form-control" readonly>
+                </div>
+            </div>
+    
+            <!-- Action Buttons Section -->
+            <div class="d-flex justify-content-between mb-4">
+                <button onclick="calculateTotalBill()" class="btn btn-primary">Total Bill</button>
+                <button onclick="clearFields()" class="btn btn-warning">Clear Fields</button>
+                <button onclick="exit()" class="btn btn-danger">Exit</button>
+            </div>
+    
+            <!-- Bill Area Section -->
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="h4 mb-3">Bill Area</h2>
+                <p id="billArea" class="pre-line">
+                    WELCOME TO SUPER MARKET<br>
+                    Phone-No.732875410<br>
+                    Bill No.: 7553<br>
+                    Customer Name: <span id="displayCustomerName"></span><br>
+                    Phone No.: <span id="displayPhoneNo"></span><br>
+                    <hr>
+                    <span id="billDetails"></span>
+                </p>
+            </div>
+        </div>
+    
+        <!-- Bootstrap JS and Popper.js -->
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</body>
+</html>
